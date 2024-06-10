@@ -18,7 +18,7 @@
 
 
 &led_strip {
-    chain-length = <56>;
+    chain-length = <22>;
 
     // chain-length = <28>;
     // 22 backlight + 6 glowlight
@@ -108,7 +108,7 @@
 
                 default_layer {
                         bindings = <
-        &soft_off &kp TAB   &kp Q &kp W &kp E &kp R &kp T                               &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSLH &sys_reset
+        &soft_off &kp TAB   &kp Q &kp W &kp E &kp R &kp T                               &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSLH &none
                 &kp LCTRL   &hml LGUI A &hml LALT S &hml LCTRL D  &kp F &kp G             &kp H &kp J &hmr LCTRL K  &hmr LALT L &hmr LGUI SEMI &kp SQT
                 &kp LSHFT   &kp Z &kp X &kp C &kp V &kp B                                 &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp LA(BSPC)
                         &kp TAB &slt 1 SPACE &kp RET                                    &lt 2 ESC &kp LSHFT &kp BSPC
@@ -122,7 +122,7 @@
 // | SHFT |  6  |  7  |  8  |  9  |    0     |   |  _  |  +  |  ~  |  {  |  }  | LALT |
 //                     | GUI |     | ALT/ENT |   | HYPER/SPACE | BKSP |    |
                         bindings = <
-                 &trans &trans  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT             &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSLH &trans
+                 &trans &trans  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT             &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSLH &sys_reset
                         &trans    &kp N1   &kp N2 &kp N3   &kp N4   &kp N5              &kp MINUS  &kp EQUAL &kp GRAVE       &kp LBKT &kp RBKT &kp PIPE
                         &trans    &kp N6   &kp N7 &kp N8   &kp N9   &kp N0              &kp UNDER  &kp PLUS  &kp TILDE       &kp LBRC &kp RBRC &trans
                                                         &trans &trans &trans            &trans &trans &trans
